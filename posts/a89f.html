@@ -470,7 +470,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.6k
+                    1.5k
                 </div>
                 
 
@@ -507,8 +507,8 @@ $ git config --list
 $ git config -e [--global]
 
 # 设置提交代码时的用户信息
-$ git config [--global] user.name "[name]"
-$ git config [--global] user.email "[email address]"</code></pre><h2 id="增加-删除文件"><a href="#增加-删除文件" class="headerlink" title="增加 / 删除文件"></a>增加 / 删除文件</h2><pre><code># 添加指定文件到暂存区
+$ git config [--global] user.name &quot;[name]&quot;
+$ git config [--global] user.email &quot;[email address]&quot;</code></pre><h2 id="增加-删除文件"><a href="#增加-删除文件" class="headerlink" title="增加 / 删除文件"></a>增加 / 删除文件</h2><pre><code># 添加指定文件到暂存区
 $ git add [file1] [file2] ...
 
 # 添加指定目录到暂存区，包括子目录
@@ -626,7 +626,7 @@ $ git log -S [keyword]
 # 显示某个commit之后的所有变动，每个commit占据一行
 $ git log [tag] HEAD --pretty=format:%s
 
-# 显示某个commit之后的所有变动，其"提交说明"必须符合搜索条件
+# 显示某个commit之后的所有变动，其&quot;提交说明&quot;必须符合搜索条件
 $ git log [tag] HEAD --grep feature
 
 # 显示某个文件的版本历史，包括文件改名
@@ -658,7 +658,7 @@ $ git diff HEAD
 $ git diff [first-branch]...[second-branch]
 
 # 显示今天你写了多少行代码
-$ git diff --shortstat "@{0 day ago}"
+$ git diff --shortstat &quot;@{0 day ago}&quot;
 
 # 显示某次提交的元数据和内容变化
 $ git show [commit]
@@ -723,25 +723,7 @@ $ git revert [commit]
 # 暂时将未提交的变化移除，稍后再移入
 $ git stash
 $ git stash pop</code></pre><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><pre><code># 生成一个可供发布的压缩包
-$ git archive</code></pre><script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+$ git archive</code></pre>
             </div>
             <hr/>
 
@@ -1406,7 +1388,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.6k</span>&nbsp;字
+                class="white-color">1.5k</span>&nbsp;字
             
             
             
